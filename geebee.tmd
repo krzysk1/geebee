@@ -2,8 +2,10 @@
 
     //-------------------------------------
     // Plane: Gee-Bee
-    // Original 3D model made by BARANGER Emmanuel (3D/FDM)/ BACON Guillaume (Sounds,Electrical)/ Pierre GEOFFROY (FDM) Version: 0.1 Alpha
     // Converted from FlightGear by Krzysztof Kaniewski
+    // Original 3D model made by BARANGER Emmanuel (3D/FDM)
+	// 		BACON Guillaume (Sounds,Electrical) 
+	// 		Pierre GEOFFROY (FDM) Version: 0.1 Alpha	
     // Date: Wed Jun 05 2019 12:10:19 GMT+0200
     //-------------------------------------
 
@@ -714,7 +716,7 @@
                 <[string8][Input][MixtureInput.Output]>
                 <[float64][Position][1.0]>
                 <[float64][OutputSpeed][10.0]>
-                <[float64array][InputPosition][  0.0 1.0 ]>
+                <[float64array][InputPosition][ 0.0 1.0 ]>
                 <[float64array][OutputPosition][ 0.0 1.0 ]>
             >
             <[output_free][ServoMixtureOutput][]
@@ -754,8 +756,6 @@
                 <[float64][Speed][5]>
 				<[float64][P0][-0.05]>
 				<[float64][P1][0.349066]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
                 <[float64][Position][0.0]>
             >
             <[output_free][ElevatorOutput][]
@@ -766,8 +766,6 @@
                 <[float64][Speed][5]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
                 <[float64][Position][0.0]>
             >
             <[output_free][ServoElevatorPositionOutput][]
@@ -784,8 +782,6 @@
                 <[float64][Speed][5]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
                 <[float64][Position][0.0]>
             >
             <[output_free][ServoAileronPositionOutput][]
@@ -796,8 +792,6 @@
 				<[float64][Speed][5.0]>
 				<[float64][P0][0.0]>
 				<[float64][P1][0.349066]>
-				<[float64][P2][0.0]>
-				<[float64][P3][0.0]>
 				<[float64][Position][0.0]>
 			>
             <[output_free][LeftAileronOutput][]
@@ -808,8 +802,6 @@
 				<[float64][Speed][5.0]>
 				<[float64][P0][0.0]>
 				<[float64][P1][-0.349066]>
-				<[float64][P2][0.0]>
-				<[float64][P3][0.0]>
 				<[float64][Position][0.0]>
 			>
             <[output_free][RightAileronOutput][]
@@ -826,8 +818,6 @@
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
 				<[float64][P1][-0.523599]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
                 <[float64][Position][0.0]>
             >
             <[output_free][ServoRudderOutput][]
@@ -838,8 +828,6 @@
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][1.0]>
-                <[float64][P2][0.0]>
-                <[float64][P3][0.0]>
                 <[float64][Position][0.0]>
             >
             <[output_free][ServoRudderPositionOutput][]
@@ -916,6 +904,7 @@
             <[input_default][FlapsInput][]
                 <[string8][Input][Controls.Flaps]>
                 <[uint][Positions][3]>
+                <[float64][Value][0.0]>
             >
             <[linear_interpolation][FlapsMapping][]
                 <[string8][Input][FlapsInput.Output]>
@@ -1894,11 +1883,11 @@
             >
 
             // wheels
-            <[soundinput][GroundRollLoadFront][]
-                <[uint32][InputID][GroundRollLoadFront.Output]>
+            <[soundinput][GroundRollLoadTail][]
+                <[uint32][InputID][GroundRollLoadTail.Output]>
             >
-            <[soundinput][GroundRollSpeedFront][]
-                <[uint32][InputID][GroundRollSpeedFront.Output]>
+            <[soundinput][GroundRollSpeedTail][]
+                <[uint32][InputID][GroundRollSpeedTail.Output]>
             >
             <[soundinput][GroundRollLoadLeft][]
                 <[uint32][InputID][GroundRollLoadLeft.Output]>
@@ -1912,8 +1901,8 @@
             <[soundinput][GroundRollSpeedRight][]
                 <[uint32][InputID][GroundRollSpeedRight.Output]>
             >
-            <[soundmapping][GroundRollFactorFront][]
-                <[string8][Input][GroundRollLoadFront.Output]>
+            <[soundmapping][GroundRollFactorTail][]
+                <[string8][Input][GroundRollLoadTail.Output]>
                 <[tmvector2d][Map][ (0.0 0.0) (100.0 1.0 ) ]>
             >
             <[soundmapping][GroundRollFactorLeft][]
@@ -1924,8 +1913,8 @@
                 <[string8][Input][GroundRollLoadRight.Output]>
                 <[tmvector2d][Map][ (0.0 0.0) (1000.0 1.0 ) ]>
             >
-            <[soundmapping][GroundRollFactorFront1][]
-                <[string8][Input][GroundRollSpeedFront.Output]>
+            <[soundmapping][GroundRollFactorTail1][]
+                <[string8][Input][GroundRollSpeedTail.Output]>
                 <[tmvector2d][Map][ (-20.0 0.1) (0.0 0.0) (20.0 0.1 ) ]>
             >
             <[soundmapping][GroundRollFactorLeft1][]
@@ -1936,8 +1925,8 @@
                 <[string8][Input][GroundRollSpeedRight.Output]>
                 <[tmvector2d][Map][ (-20.0 1.0) (0.0 0.0) (20.0 1.0 ) ]>
             >
-            <[soundmapping][GroundRollPitchFront][]
-                <[string8][Input][GroundRollSpeedFront.Output]>
+            <[soundmapping][GroundRollPitchTail][]
+                <[string8][Input][GroundRollSpeedTail.Output]>
                 <[tmvector2d][Map][ (-50.0 1.0) (0.0 0.5) (50.0 1.0 ) ]>
             >
             <[soundmapping][GroundRollPitchLeft][]
@@ -1948,9 +1937,9 @@
                 <[string8][Input][GroundRollSpeedRight.Output]>
                 <[tmvector2d][Map][ (-50.0 0.9) (0.0 0.5) (50.0 0.9 ) ]>
             >
-            <[soundmultiply][GroundRollVolumeFront][]
-                <[string8][Input0][GroundRollFactorFront.Output]>
-                <[string8][Input1][GroundRollFactorFront1.Output]>
+            <[soundmultiply][GroundRollVolumeTail][]
+                <[string8][Input0][GroundRollFactorTail.Output]>
+                <[string8][Input1][GroundRollFactorTail1.Output]>
             >
             <[soundmultiply][GroundRollVolumeLeft][]
                 <[string8][Input0][GroundRollFactorLeft.Output]>
@@ -1960,9 +1949,9 @@
                 <[string8][Input0][GroundRollFactorRight.Output]>
                 <[string8][Input1][GroundRollFactorRight1.Output]>
             >
-            <[soundloop][GroundRollFrontLoop][]
-                <[string8][InputVolume][GroundRollVolumeFront.Output]>
-                <[string8][InputPitch][GroundRollPitchFront.Output]>
+            <[soundloop][GroundRollTailLoop][]
+                <[string8][InputVolume][GroundRollVolumeTail.Output]>
+                <[string8][InputPitch][GroundRollPitchTail.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
                 <[string8][SoundFile][rumble.wav]>
