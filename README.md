@@ -3,16 +3,16 @@ Gee Bee Model R
 
 The Gee Bee Model R Super Sportster was a special purpose racing aircraft made by Granville Brothers Aircraft of Springfield, Massachusetts. Gee Bee stands for Granville Brothers. (from Wikipedia)
 
-This is free add-on for AeroflyFS2 developed by Krzysztof Kaniewski, 2019 ver. 1.0.
+This is free add-on for AeroflyFS4 developed by Krzysztof Kaniewski, 2019 ver. 1.0.; 2022
 3D model: BARANGER Emmanuel (3D/FDM)/ BACON Guillaume (Sounds,Electrical)/ Pierre GEOFFROY (FDM). Downloaded from http://helijah.free.fr/flightgear/hangar.htm
 Thanks to them.
 
- Some features may not work as intended and this aircraft could crash your Aerofly FS2. 
+ Some features may not work as intended and this aircraft could crash your Aerofly FS4. 
  Use it at your own risk!
 
 Installation
 
-1. Unzip file and move the folder "geebee" to C:\Users\~\Documents\Aerofly FS2\aircraft.
+1. Unzip file and move the folder "geebee" to C:\Users\~\Documents\Aerofly FS4\aircraft.
 
 Repaint kit and other resources are available here: https://github.com/FGMEMBERS/Gee-Bee
 
