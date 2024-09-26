@@ -39,10 +39,9 @@
         >
         <[string8][AutoPilotType][]>
         <[int][EngineCount][1]>
-        <[bool][Piston][true]>		
+        <[bool][Piston][true]>
+        <[bool][GeneralAviation][true]>		
         <[bool][Aerobatic][true]>
-        <[bool][Fighter][true]>
-        <[bool][FlyByWire][true]>
         <[bool][TailDragger][true]>
         <[float64][ThrottleTrimFactor][0.5]>
         <[float64][ElevatorGain][0.4]>
