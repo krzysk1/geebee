@@ -3665,7 +3665,7 @@
                 <[string8][InputPitch][RpmPitchWind.Output]>
                 <[uint32][PositionID][EngineBody.R]>
                 <[uint32][VelocityID][EngineBody.V]>
-                <[string8][SoundFile][prop.wav]>
+                <[string8][SoundFile][prop1.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RpmWindLoopExt][]
@@ -3673,7 +3673,7 @@
                 <[string8][InputPitch][RpmPitchWind.Output]>
                 <[uint32][PositionID][EngineBody.R]>
                 <[uint32][VelocityID][EngineBody.V]>
-                <[string8][SoundFile][prop.wav]>
+                <[string8][SoundFile][prop1.wav]>
                 <[bool][Internal][false]>
             >
 
