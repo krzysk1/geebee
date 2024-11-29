@@ -1,6 +1,8 @@
 # geebee
 Gee Bee Model R
 
+**THE MODEL HAS NO FUNCTIONAL COCKPIT AND NO DEVELOPMENT IS PLANNED**
+
 The Gee Bee Model R Super Sportster was a special purpose racing aircraft made by Granville Brothers Aircraft of Springfield, Massachusetts. Gee Bee stands for Granville Brothers. (from Wikipedia)
 
 This is free add-on for AeroflyFS4 developed by Krzysztof Kaniewski, 2019 ver. 1.0.; 2022
